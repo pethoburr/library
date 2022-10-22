@@ -31,8 +31,7 @@ function displayBook() {
             removeBtn.innerHTML = 'REMOVE';
             cardEl.append(removeBtn);
             removeBtn.addEventListener('click', event => {
-                cardEl.innerHTML = '';
-                cardEl.classList.remove('card');
+                cardEl.remove();
             })
             update.appendChild(cardEl); 
         }
