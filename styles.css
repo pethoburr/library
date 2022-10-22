@@ -1,3 +1,6 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .container-fluid {
     padding: 0 !important;
     margin: 0 !important;
@@ -29,7 +32,6 @@ h1, h4 {
 }
 
 .card {
-    width: 8rem !important;
     padding: 1rem !important;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px !important;
     margin: 2rem !important;
@@ -69,5 +71,13 @@ label {
 }
 
 .remove {
-    background-color: red !important;
+    border: 2px solid red;
+    background-color: white;
+    border-radius: 5rem;
+    color: red;
+}
+
+.remove:hover {
+    background-color: red;
+    color: white;
 }

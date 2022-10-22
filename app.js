@@ -26,6 +26,14 @@ function displayBook() {
             const cardEl = document.createElement('div');
             cardEl.classList.add('card');
             cardEl.innerHTML += myLibrary[i].info();
+            const removeBtn = document.createElement('button');
+            removeBtn.classList.add('remove');
+            removeBtn.innerHTML = 'REMOVE';
+            cardEl.append(removeBtn);
+            removeBtn.addEventListener('click', event => {
+                cardEl.innerHTML = '';
+                cardEl.classList.remove('card');
+            })
             update.appendChild(cardEl); 
         }
     }
