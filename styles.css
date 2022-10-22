@@ -1,0 +1,66 @@
+.container {
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 100vh !important;
+    width: 100vw !important;
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr;
+}
+
+header {
+    grid-column: 1 / -1;
+    background-color: rgb(41, 60, 231);
+    color: white;
+    display: grid;
+}
+
+.body {
+    grid-column: 1 / -1;
+}
+
+footer { 
+    display: grid;
+    text-align: center;
+    background-color: gray;
+}
+
+h1, h4 {
+    place-self: center;
+}
+
+.card {
+    display: inline-block !important;
+    width: 10rem !important;
+    padding: 1rem !important;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px !important;
+    margin: 2rem !important;
+}
+
+.btn-primary {
+    padding: 5px !important;
+    margin: 1rem;
+    background-color: white !important;
+    color: blue !important;
+}
+
+.btn-primary:hover {
+    background-color: rgb(47, 15, 209) !important;
+    color: white !important
+}
+
+.modal-content, .modal-dialog {
+    padding: .75rem !important;
+    text-align: center !important;
+}
+
+#form {
+    padding: 10px !important;
+    display: block;
+}
+
+label {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 5px !important;
+}
+
