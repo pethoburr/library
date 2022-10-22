@@ -32,6 +32,7 @@ h1, h4 {
 }
 
 .card {
+    max-width: 15rem;
     padding: 1rem !important;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px !important;
     margin: 2rem !important;
