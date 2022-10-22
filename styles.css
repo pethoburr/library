@@ -1,4 +1,4 @@
-.container {
+.container-fluid {
     padding: 0 !important;
     margin: 0 !important;
     height: 100vh !important;
@@ -66,4 +66,8 @@ label {
 #empty {
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+}
+
+.remove {
+    background-color: red !important;
 }
